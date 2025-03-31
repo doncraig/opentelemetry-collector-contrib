@@ -10,6 +10,8 @@ module github.com/open-telemetry/opentelemetry-collector-contrib
 
 go 1.23.0
 
+replace github.com/open-telemetry/opentelemetry-collector-contrib => ../
+
 retract (
 	v0.76.2
 	v0.76.1
