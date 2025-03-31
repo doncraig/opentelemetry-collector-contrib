@@ -8,7 +8,7 @@ require (
 	github.com/influxdata/influxdb-observability/influx2otel v0.5.12
 	github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c
 	github.com/influxdata/line-protocol/v2 v2.2.1
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.122.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.0.0 // replaced below
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v1.28.2-0.20250319144947-41a9ea7f7402
 	go.opentelemetry.io/collector/component/componentstatus v0.122.2-0.20250319144947-41a9ea7f7402
@@ -85,7 +85,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../../internal/common
 
 retract (
 	v0.76.2
