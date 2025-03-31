@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib
+module github.com/doncraig/opentelemetry-collector-contrib
 
 // NOTE:
 // This go.mod is NOT used to build any official binary.
@@ -10,7 +10,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib
 
 go 1.23.0
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib => ../
+replace github.com/open-telemetry/opentelemetry-collector-contrib => ../opentelemetry-collector-contrib
 
 retract (
 	v0.76.2
